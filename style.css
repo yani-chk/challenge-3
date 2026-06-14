@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.header {
+  padding: 30px;
+  background-color: white;
+}
+
+.header h1 {
+  color: #2dbfb8;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #e8a838;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.description {
+  color: #555;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.bottom {
+  display: flex;
+}
+
+.pricing {
+  background-color: #2dbfb8;
+  color: white;
+  padding: 25px;
+  flex: 1;
+}
+
+.pricing h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.price span {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.access {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #c8e840;
+  color: #333;
+  border: none;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.why {
+  background-color: #1a9e98;
+  color: white;
+  padding: 25px;
+  flex: 1;
+}
+
+.why h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.why ul {
+  list-style: none;
+  font-size: 13px;
+  line-height: 2;
+}
+
+/*responsive*/
+@media screen and (max-width: 600px) {
+  .bottom {
+    flex-direction: column;
+  }
+}
